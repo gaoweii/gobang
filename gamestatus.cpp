@@ -1,0 +1,6 @@
+
+
+GameStatus::GameStatus()
+{
+
+}

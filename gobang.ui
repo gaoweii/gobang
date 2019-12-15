@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gobang</class>
+ <widget class="QMainWindow" name="Gobang">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gobang</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>541</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="background.qrc">:/new/background/bk.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>自由对战</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>无禁手模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>260</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>局域网对战</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>人机对战</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>禁手模式</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>842</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="background.qrc"/>
+ </resources>
+ <connections/>
+</ui>
